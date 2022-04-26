@@ -1,0 +1,8 @@
+{
+  "name": "Xcode App Icon Exporter",
+  "id": "1100675815076145179",
+  "api": "1.0.0",
+  "main": "dist/plugin.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma", "figjam"]
+}
