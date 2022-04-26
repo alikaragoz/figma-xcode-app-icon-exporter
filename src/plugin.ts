@@ -277,7 +277,9 @@ async function performExport(
   appIconEntries: readonly AppIconEntry[]
 ): Promise<void> {
   if (nodes.length === 0) {
-    return Promise.reject("Something wrong with export settings");
+    return Promise.reject("No frame selected 😉");
+  } else if (nodes.length > 1) {
+    return Promise.reject("Please selected only one frame 😇");
   }
 
   for (let iconEntry of appIconEntries) {
