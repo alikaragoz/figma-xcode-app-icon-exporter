@@ -1,9 +1,9 @@
 {
   "name": "xcode-app-icon-exporter",
   "version": "1.0.0",
-  "description": "Your Figma Plugin",
-  "author": "",
-  "license": "ISC",
+  "description": "This plugin automatically generates a zipped AppIcon.appiconset from a selected frame in Figma.",
+  "author": "Ali Karagoz",
+  "license": "MIT",
   "devDependencies": {
     "@figma/plugin-typings": "^1.44.0",
     "css-loader": "^6.7.1",
@@ -33,6 +33,7 @@
     "util-deprecate": "^1.0.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx webpack --mode=development --watch",
+    "build": "npx webpack --mode=production"
   }
 }

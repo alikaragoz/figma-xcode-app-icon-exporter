@@ -1,5 +1,5 @@
-import JSZip from "../node_modules/jszip/dist/jszip.min.js";
-import { AppIconEntry } from "./plugin.js";
+import JSZip from "../../node_modules/jszip/dist/jszip.min.js";
+import { AppIconEntry } from "../lib";
 
 function typedArrayToBuffer(array) {
   return array.buffer.slice(
